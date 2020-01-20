@@ -1,0 +1,17 @@
+#Python Code
+def find_x(n):
+    x=0
+    for i in range(2*n):
+        x+=int(i/2)+i
+    return x*n
+# C Language Code
+
+long long find_x(int n) {
+  long long x = 0;
+  
+    for (int j = 0; j < 2*n; j++){
+      x+=(int)(j/2)+j;
+  }
+  return x*n;
+}
+
